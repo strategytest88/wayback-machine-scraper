@@ -18,7 +18,7 @@ import time
 class WaybackMachineScraper:
     def __init__(self):
         self.base_url = "https://archive.org/wayback/available"
-        self.search_api = "https://web.archive.org/cdx/search/cdx"
+        self.search_api = "http://web.archive.org/cdx/search/cdx?url=archive.org"
         self.cache_dir = ".cache"
         self.interrupted = False
         
